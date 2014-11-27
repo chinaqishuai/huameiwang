@@ -14,6 +14,7 @@ class IndexController extends Controller
     public function index()
     {
         echo 'DEVELOPMENT';
+        echo 'Master';
         $this->display();
     }
 }
