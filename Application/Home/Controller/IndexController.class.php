@@ -13,6 +13,6 @@ class IndexController extends Controller
     
     public function index()
     {
-        echo '测试使用';
+        $this->display();
     }
 }
