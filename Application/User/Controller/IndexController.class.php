@@ -1,6 +1,6 @@
 <?php
 
-namespace Tieba\Controller;
+namespace User\Controller;
 
 use Think\Controller;
 
@@ -13,6 +13,9 @@ class IndexController extends Controller
     
     public function index()
     {
+        layout(false);
         echo '测试使用';
+        //echo D('User/User','Service')->demo();
+        $this->display();
     }
 }
