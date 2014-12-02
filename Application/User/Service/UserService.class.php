@@ -27,6 +27,6 @@ class UserService
     }
 
     /*
-     * 丰富的
+     * 内容丰富的
      */
 }
