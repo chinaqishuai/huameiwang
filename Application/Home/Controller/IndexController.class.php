@@ -13,7 +13,7 @@ class IndexController extends Controller
     
     public function index()
     {
-        echo 'DEVELOPMENT';
+        echo 'DEVELOPMENT 2';
         echo 'Master';
         $this->display();
     }
