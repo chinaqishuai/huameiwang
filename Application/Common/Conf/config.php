@@ -16,7 +16,7 @@ $appConfig = array(
     'UPLOAD_ROOT' => 'Public/uploads/',
     // 系统公用配置目录
     'COMMON_CONF_PATH' => WEB_ROOT . 'Common/Conf/'
-    
+    ,''
 );
 
 return array_merge($appConfig);
